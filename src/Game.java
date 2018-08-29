@@ -13,7 +13,6 @@ public class Game {
         if(counter == 0){
             System.out.println("Do you want to play rock, paper, scissors? (y/n)");
         }else{
-
             System.out.println("\nPlay again? (y/n)");
         }
 

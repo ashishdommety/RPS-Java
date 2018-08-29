@@ -6,10 +6,12 @@ public class Main {
     public static void main(String args[]){
         Game game = new Game();
 
+        // System.out.println("Choose rock, paper of scissors (r,p,s):");
+
         String choice = game.getChoice();
 
         while(choice.equals("y")){
-            System.out.println("Choose rock, paper of scissors (r,p,s):");
+            System.out.println("Lets begin! Choose rock, paper or scissors (r,p,s):");
             // ask user his choice
             String userChoice = new User().getChoice();
             // get computers choice
