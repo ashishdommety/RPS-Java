@@ -3,7 +3,6 @@ import java.util.Scanner;
 public class Game {
     private int counter = 0;
 
-
     public void play(String user, String com){
         startGame(user, com);
         counter++;
@@ -21,6 +20,7 @@ public class Game {
 
         return choice;
     }
+
     // comparsion logic goes here
     public void startGame(String userChoice, String compChoice){
         System.out.println("Comp chose " + compChoice);
@@ -56,6 +56,5 @@ public class Game {
     public void endGame(){
         System.out.println("Thank you for playing!");
     }
-
 }
 

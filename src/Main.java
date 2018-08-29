@@ -1,12 +1,8 @@
 import java.util.*;
 
-//import java.util.Scanner;
-
 public class Main {
     public static void main(String args[]){
         Game game = new Game();
-
-        // System.out.println("Choose rock, paper of scissors (r,p,s):");
 
         String choice = game.getChoice();
 
